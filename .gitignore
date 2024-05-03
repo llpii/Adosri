@@ -1,32 +1,21 @@
 # Prerequisites
-*.d
+.SUFFIXES: .d
 
 # Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+.SUFFIXES: .slo .lo .o .obj
 
 # Precompiled Headers
-*.gch
-*.pch
+.SUFFIXES: .gch .pch
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+.SUFFIXES: .so .dylib .dll
 
 # Fortran module files
-*.mod
-*.smod
+.SUFFIXES: .mod .smod
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+.SUFFIXES: .lai .la .a .lib
 
 # Executables
-*.exe
-*.out
-*.app
+.SUFFIXES: .exe .out .app
+
